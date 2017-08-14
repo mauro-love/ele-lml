@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "iconfont1";
+  src: url('iconfont.ttf'); 
+}
+@font-face {
+  font-family: "iconfont2";
+  src: url('iconfont1.ttf'); 
+}
+.iconfont1 {
+  font-family:"iconfont1" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.iconfont2 {
+  font-family:"iconfont2" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 外卖的icon */
+.icon-eleme:before{
+	content: "\e600";
+}
+.router-link-active .icon-eleme:before{
+	content: "\e600";
+}
+/* 发现的icon */
+.icon-discover:before{
+	content: "\e66f";
+}
+.router-link-active .icon-discover:before{
+	content: "\e60f";
+}
+/* 订单的icon */
+.icon-order:before{
+	content: "\e68d";
+}
+.router-link-active .icon-order:before{
+	content: "\e68e";
+}
+/* 我的的icon */
+.icon-me:before{
+	content: "\e60d";
+}
+.router-link-active .icon-me:before{
+	content: "\e65d";
+}
+/*左箭头*/
+.icon-jiantou-zuo-copy:before { content: "\e601"; }
+/*到达位置*/
+.icon-24x24daoda:before { content: "\e610"; }
+/*右箭头*/
+.icon-jiantou:before { content: "\e695"; }
+/*倒三角*/
+.icon-sanjiao:before { content: "\e603"; }
+/*五角星*/
+.icon-wujiaoxing:before { content: "\e619"; }
+/*手机*/
+.icon-phone:before { content: "\e602"; }
+/*会员卡*/
+.icon-huiyuanqia:before { content: "\e665"; }
+/*头像*/
+.icon-touxiang:before { content: "\e637"; }
+/*积分商城*/
+.icon-jifenshangcheng:before { content: "\e698"; }
+/*订单*/
+.icon-dingdan:before { content: "\e600"; }
+/*花，服务*/
+.icon-hua:before { content: "\e604"; }
+/*饿了么*/
+.icon-eleme:before { content: "\e63d"; }
+/*红包，优惠*/
+.icon-hongbao:before { content: "\e63b"; }
+/*积分*/
+.icon-jifen:before { content: "\e755"; }
